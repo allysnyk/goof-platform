@@ -1,0 +1,27 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - dustjs-linkedin > chokidar > readdirp > micromatch > snapdragon > debug:
+        patched: '2023-02-21T19:46:09.898Z'
+    - dustjs-linkedin > chokidar > readdirp > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-21T19:46:09.898Z'
+    - dustjs-linkedin > chokidar > readdirp > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-21T19:46:09.898Z'
+    - dustjs-linkedin > chokidar > readdirp > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-21T19:46:09.898Z'
+    - dustjs-linkedin > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-21T19:46:09.898Z'
+  'npm:ms:20170412':
+    - dustjs-linkedin > chokidar > readdirp > micromatch > snapdragon > debug > ms:
+        patched: '2023-02-21T19:46:09.898Z'
+    - dustjs-linkedin > chokidar > readdirp > micromatch > braces > snapdragon > debug > ms:
+        patched: '2023-02-21T19:46:09.898Z'
+    - dustjs-linkedin > chokidar > readdirp > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2023-02-21T19:46:09.898Z'
+    - dustjs-linkedin > chokidar > readdirp > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2023-02-21T19:46:09.898Z'
+    - dustjs-linkedin > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2023-02-21T19:46:09.898Z'
